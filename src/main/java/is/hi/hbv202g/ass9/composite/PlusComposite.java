@@ -5,20 +5,18 @@ import java.util.List;
 
 public class PlusComposite implements MathExpression {
 
-    private List<NumberLeaf> children=new ArrayList<NumberLeaf>();
+    private List<MathExpression> children = new ArrayList<>();
 
-    public void add(NumberLeaf component) {
+    public void add(MathExpression component) {
         children.add(component);
     }
 
     @Override
     public int getResult() {
-        int result = 0;
+        int sum = 0;
         for (MathExpression child : children) {
-                result += child.getResult();
+            sum += child.getResult();
         }
-        return result;
+        return sum;
     }
 }
-
-
