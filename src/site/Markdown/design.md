@@ -1,9 +1,9 @@
 # Design Documentation
 
-This document provides the UML class diagram for the final design of the package `is.hi.hbv202g.ass9.compositeObservedTemplateMethod`.
+The document provides the UML class diagram for the design of the package `is.hi.hbv202g.ass9.composite.`.
 
-Below is the UML class diagram that shows the classes, interfaces, methods, attributes, and associations:
+The UML class diagram that shows the classes, methods, attributes, interfaces, and associations:
 
-![](design-diagram.png)
+![](src/site/markdown/diagram.png)
 
-*Note: The diagram includes the essential associations for the Composite, Observer, and Template Method patterns.*
+*Note: The diagram includes the essential associations for the package `is.hi.hbv202g.ass9.composite.`*

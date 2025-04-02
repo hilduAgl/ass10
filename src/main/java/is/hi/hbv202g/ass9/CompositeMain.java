@@ -3,7 +3,11 @@ package is.hi.hbv202g.ass9;
 import is.hi.hbv202g.ass9.composite.*;
 
 public class CompositeMain {
-
+	/**
+	 * Aðal aðferðin sem keyrir verkefnið
+	 *
+	 * @param args Arg fylki sem tekur við inntaki
+	 */
 	public static void main(String[] args) {
 		NumberLeaf number1 = new NumberLeaf(1);
 		NumberLeaf number2 = new NumberLeaf(2);

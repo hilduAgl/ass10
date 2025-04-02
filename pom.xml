@@ -14,6 +14,11 @@
     <license>
       <name>MIT</name>
     </license>
+    <license>
+      <name>MIT License</name>
+      <url>LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
   </licenses>
   <organization>
     <name>University of Iceland</name>
@@ -39,6 +44,19 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.11.2</version>
+        <configuration>
+          <show>public</show>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -89,6 +107,7 @@
           <mainClass>is.hi.hbv202g.ass9.composite.Main</mainClass>
         </configuration>
       </plugin>
+
     </plugins>
   </build>
 </project>
